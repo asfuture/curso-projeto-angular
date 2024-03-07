@@ -1,0 +1,12 @@
+<p>Lista de Cursos do portal {{nomePortal}}</p>
+
+<app-curso-detalhe></app-curso-detalhe>
+
+<ul *ngFor="let curso of cursos">
+    <li>{{curso}}</li>
+  
+</ul>
+<ul *ngFor="let nomePais of countries">
+    <li>{{nomePais.name.official}}</li>
+  
+</ul>
